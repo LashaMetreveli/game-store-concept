@@ -34,26 +34,7 @@ export default function Blog() {
         {!loaded && <Spinner />}
         {loaded && (
           <div className={style.container}>
-            <div className={style.intro}>
-              <ul className={style.buttonContainer}>
-                {categories.map((category, c) => {
-                  return (
-                    <li key={category}>
-                      <button
-                        className={
-                          category === activeFilter
-                            ? style.focusedButton
-                            : style.categoryButton
-                        }
-                        onClick={() => changeCategory(category)}
-                      >
-                        {category}
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+            <div className={style.intro}></div>
 
             <div className={style.productContainer}>
               {blogs.map((p, index) => {
