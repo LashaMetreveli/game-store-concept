@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.blogImage {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.blogTitle {
+  font-size: 2.5em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+}
+
+.blogText {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 40px;
+  width: 100%;
+  max-width: 900px;
+}

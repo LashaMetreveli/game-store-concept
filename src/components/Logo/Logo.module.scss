@@ -1,0 +1,35 @@
+.container {
+  margin-left: 200px;
+  position: relative;
+  float: left;
+  @media (max-width: 600px) {
+    margin-left: 20px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.text {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  display: inline-block;
+  transition: opacity 0.3s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+    left: 65px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 24px;
+    top: 0px;
+    left: 60px;
+  }
+}

@@ -1,0 +1,17 @@
+.arrow {
+  position: fixed;
+  z-index: 200;
+  margin: 50px;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  transition: opacity 0.5s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}

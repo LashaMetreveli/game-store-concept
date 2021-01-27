@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  min-height: 150px;
+  background-color: #101419;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  margin-top: 240px;
+}
+
+.column {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLink {
+  margin-top: 25px;
+  color: white;
+  margin-left: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
