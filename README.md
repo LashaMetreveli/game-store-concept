@@ -14,16 +14,16 @@ Made with React + Redux.
 
 ### Navigation
 
-Use Navigation Bar to visit pages.
+Use Navigation Bar to visit the pages.
 
-You can not use cart without authentication.
+You can not use a cart without authentication.
 
 ### Authentication
 Click Log In / Sign Up to authenticate.
 
-test email : test.user@gmail.com
+Test email : test.user@gmail.com
 
-test password: test123
+Test password: test123
 
 ### Shop
 
