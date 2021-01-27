@@ -37,8 +37,7 @@ Click remove to delete item from cart.
 
 Click Complete payment to finish checkout.
 
-"-----"
-
+-----
 Images and text used in this repository do not belong to me.
 
 
