@@ -16,7 +16,7 @@ Made with React + Redux.
 
 Use Navigation Bar to visit the pages.
 
-You can not use a cart without authentication.
+You can not use cart without authentication.
 
 ### Authentication
 Click Log In / Sign Up to authenticate.
